@@ -1,0 +1,86 @@
+body {
+  background-image: url("https://www.rose-hulman.edu/class/csse/csse280/current/Homework/recipe/images/silverware.jpg");
+  background-repeat:repeat;
+  background-size:auto;
+  /* background-attachment: fixed;  */
+  font-family: Georgia, Garamond;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color:#404040;
+  font-size: 11pt;  
+
+}
+  
+h1{
+  font-family:Lucida Sans Unicode, Helvetica, Arial;
+  letter-spacing: 0.25em; 
+  /* display:inline; */
+  text-align:center; 
+  background-color: #F0F0F0;
+  color:#A4A400;
+  /* white-space: nowrap; */
+  /* padding: 5px; */
+  /* margin:0; */
+  font-size: 22pt;
+  font-weight: bold;
+
+}
+h2{
+  font-family: Lucida Sans Unicode, Helvetica, Arial;
+  letter-spacing: 0.25em;
+  color:#A4A400;
+  background-color: #F0F0F0;
+  display: inline-block;
+  font-size: 18pt;
+  font-weight: normal;
+}
+
+.tooltip{
+  position:relative;
+  display:inline-block;
+  cursor: pointer;
+  text-decoration: underline;
+  /* border-bottom: 1px dotted black; */
+  /* transform: translate(-65px); */
+}
+
+.tooltip .tooltiptext{
+  visibility: hidden;
+  width: auto;
+  background-color:black;
+  color:white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom:120%;
+  left:50%;
+  transform: translate(-50%);
+  opacity:0;
+  transition: opacity 0.3s ease-in-out;
+  font-size: 14px;
+
+}
+
+.tooltip:hover .tooltiptext{
+  visibility: visible;
+  opacity:1;
+}
+.copy{
+
+  font-family:monospace;
+}
+.Emilie{
+  background-color: #FFFFA8;
+}
+ 
+.Vickie{
+  background-color: #FFFFA8;
+}
+
+.Jean{
+  background-color: #FFFFA8;
+}
+

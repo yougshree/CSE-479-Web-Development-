@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+header {
+    text-decoration-line: overline;
+    text-decoration-thickness: 5px;
+    text-shadow: 2px 2px black;
+    /* text-decoration style: solid; */
+    color:whitesmoke;
+    text-align: center;
+}
+section{
+    /* likha niche namanor jonno */
+    padding:4rem;
+    text-align: center;
+}
+.hero{
+    color: rgb(3, 3, 3);
+    text-decoration-thickness: 5px;
+    text-shadow: 1.5px 1.5px chocolate;
+}
+
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color: black;
+    display: block;
+    padding: 15px;
+    color: white; 
+    text-align: center;
+}
