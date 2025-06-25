@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Squared Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="relative">
+        <div id="description">
+            <h2>Description</h2>
+            <p>Originally called the 15-puzzle (also called Gem Puzzle, Boss Puzzle, Game of Fifteen, Mystic Square
+            and many other names), this game is a sliding puzzle that consists of a frame of numbered square tiles in
+            random order with one tile missing. The puzzle also exists in other sizes, particularly the smaller 8-puzzle.</p>
+        </div>
+
+        <div id="rules">
+            <h2>Rules</h2>
+            <ul>
+                <li>Only one tile can be moved at a time, and it can only be moved into the empty space.</li>
+                <li>Tiles can be moved vertically or horizontally but not diagonally.</li>
+            </ul>
+        </div>
+    </div>
+    <h1>N-Squared Puzzle</h1>
+    <div class="controls">
+        <label> Choose a Row Size:</label>
+        <input type="radio" name="size" value="3"> 3
+        <input type="radio" name="size" value="4" checked> 4
+        <input type="radio" name="size" value="5"> 5
+        <input type="radio" name="size" value="6"> 6
+        <button id="sizeChoice">Choose</button>
+    </div>
+    <div id="board"></div>
+    <script src="squard_puzzel.js"></script>
+</body>
+</html>
